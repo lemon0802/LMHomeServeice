@@ -6,6 +6,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'LMHomeServeice' do
 
-	pod "BeeHive"
+	pod "BeeHive", '~> 1.5.1'
  
 end

@@ -17,5 +17,5 @@ git add .
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin master --tags
-cd ~/.cocoapods/repos/LMBHPrivatePod && git pull origin master && pod repo push LMBHPrivatePod LMHomeServeice.podspec --verbose --allow-warnings --use-libraries
+cd ~/.cocoapods/repos/LMBHPrivatePod && git pull origin master && cd - && pod repo push LMBHPrivatePod LMHomeServeice.podspec --verbose --allow-warnings --use-libraries
 
