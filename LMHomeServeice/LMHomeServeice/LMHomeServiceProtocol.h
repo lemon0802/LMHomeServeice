@@ -12,5 +12,6 @@
 
 -(void)registerViewController:(UIViewController *)vc title:(NSString *)title iconName:(NSString *)iconName;
 
+-(void)test;
 
 @end
